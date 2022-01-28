@@ -1,6 +1,6 @@
 package com.qa.chocolate.domain;
 
-public class Chocolates {
+public class Chocolate {
 	
 	private String name;
 	
@@ -19,11 +19,11 @@ public class Chocolates {
 	// aero aero milk 100 chocolate 80
 
 	//default constructor 
-	public Chocolates() {
+	public Chocolate() {
 		super();
 	}
 //constructor with all fields 
-	public Chocolates(String name, String brand, String type, int tastiness, String texture, int sugarContent) {
+	public Chocolate(String name, String brand, String type, int tastiness, String texture, int sugarContent) {
 		super();
 		this.name = name;
 		this.brand = brand;
